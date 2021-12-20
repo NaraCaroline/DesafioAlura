@@ -1,0 +1,41 @@
+header {
+    background: coral;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    margin: 16px;
+    /* margin-block-start: 32px; 
+     margin-inline-start: 32px;
+    margin-inline-end: 32px; */
+    height: 56px;
+    }
+
+
+
+.search {
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+    width: 752px;
+    height: 56px;
+}   
+
+textarea, input {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.logo {
+    display: flex;
+    
+}
+
+.usuario_container{
+    display: flex;
+    
+}
+
+.imagemusu {
+    margin-right: 5px;
+}
