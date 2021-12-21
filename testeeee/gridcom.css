@@ -1,0 +1,21 @@
+#pagina {
+    padding: 10px;
+    margin: auto ;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 100px 600px;
+  
+  }
+  
+  header {
+    
+    grid-column: 1/4;
+    margin: 5px;
+  }
+  
+  nav {
+    
+    grid-column: 1/2;
+    margin: 5px;
+  }
+
