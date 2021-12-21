@@ -1,16 +1,3 @@
-.retangulo {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 32px;
-    width: 752px;
-    height: 366px;
-    background: #6BD1FF;
-    border-radius: 8px;
-    padding: 32px;
-   
-
-}
 
 /* textarea { 
     display: flex;
@@ -70,7 +57,7 @@
     /* top: 128px; */
     background: #6BD1FF;
     border-radius: 8px;
-    position: fixed;
+    position: static;
     left: 344px;
     right: 344px;
     top: 128px

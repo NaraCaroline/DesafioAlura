@@ -23,17 +23,24 @@
     .headersearch {
       font-family: Inter;
       font-style: normal;
-      align-items: center;
       opacity: 0.64;
       text-align: left;
+      padding-left: 20px;
       color: white;
       width: 752px;
       height: 56px;
-      left: 400px;
+      left: 375px;
       top: 32px;
       position: fixed;
       background: rgba(255, 255, 255, 0.16);
       border-radius: 8px;
+    }
+
+    .headersearch:hover { 
+      opacity: 1.0;
+      transition: opacity .55s ease-in-out;
+      -moz-transition: opacity .55s ease-in-out;
+      -webkit-transition: opacity .55s ease-in-out;
     }
 
     textarea, input {

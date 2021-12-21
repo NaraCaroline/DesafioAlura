@@ -8,9 +8,10 @@
 }
 
 header {
-  
+  display: flex;
   grid-column: 1/4;
   margin: 5px;
+  
 }
 
 nav {
@@ -30,3 +31,11 @@ aside {
   grid-column: 3/4;
   margin: 5px;
 }
+
+@media screen and (max-width: 600px) {
+  #pagina {
+    width: 100%;
+  }
+}
+
+
