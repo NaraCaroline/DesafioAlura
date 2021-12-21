@@ -12,13 +12,13 @@ body {
 }
 
 header {
-  background: rgb(142, 78, 202);
+  
   grid-column: 1/4;
   margin: 5px;
 }
 
 nav {
-  background: pink;
+  
   grid-column: 1/2;
   margin: 5px;
 }

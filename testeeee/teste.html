@@ -1,20 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Challenge - FrontEnd</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Roboto+Mono&display=swap"
+    rel="stylesheet"/>
     <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="menu.css">
 </head>
 
 <body>
   <section id="pagina">
-    <header>cabeçalho</header>
 
-    <nav>navegaçao</nav>
+    <!-- Aqui fica a logo, a searchbar e a parte do usuário. -->
+    <header>
+      <h1 class="logoalura">
+        <img src="img/Logo.svg" alt="Logo Alura Dev" />
+        </h1>
 
+        <div>
+          <input class="headersearch" type="search" placeholder="Busque por algo">
+      </div>
+      <img class="fotousuario" src="assets/img/Photo.svg" alt="foto do usuário">
+      <a class="nomeusu" href="#">Harry</a>
+
+    </header>
+
+    <!-- Aqui fica o menu lateral esquerdo. -->
+    <nav class="menu">
+      <h2 class="menutitulo">Menu</h2>
+        <ul class="menulista">
+          <li>
+          <a href=".teste.html">
+            <div class="menuicon">
+              <img src="img/Icon.svg"
+                alt="Editor de código" class="iconeditor"/>
+              </div>
+              <p class="editor">Editor de código</p>
+                  </a>
+
+          <a href="./comunidade.html">
+              <div class="menuicon">
+                  <img src="/assets/img/IconComunidade.svg"
+                    alt="Comunidade" class="iconcomunidade"/>
+              </div>
+                <p class="comunidade">Comunidade</p>
+          </a>
+          </li>
+        </ul>
+    </nav>
+
+
+    <!-- O editor de código. -->
     <section id="conteudo">conteudo</section>
 
+    <!-- Campo para inserir nome e descrição do projeto. -->
     <aside>lateral</aside>
+
+
   </section>
-
-
 </body>
 </html>

@@ -1,0 +1,55 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .headercontainer {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+  }
+  
+  .logoprojeto {
+      margin-bottom: 0;
+      max-width: 145px;
+      height: 34.05px;
+      left: 32px;
+      top: 51.7px;
+      position: fixed;
+    }
+  
+    .headersearch {
+      font-family: Inter;
+      font-style: normal;
+      align-items: center;
+      opacity: 0.64;
+      text-align: left;
+      color: white;
+      width: 752px;
+      height: 56px;
+      left: 400px;
+      top: 32px;
+      position: fixed;
+      background: rgba(255, 255, 255, 0.16);
+      border-radius: 8px;
+    }
+  
+    header a {
+      position: fixed;
+      top: 48px;
+      right: 44px;
+    }
+  
+    .fotousuario {
+    position: fixed;
+    right: 94px;
+    top: 44px;
+    }
+    
+    .nomeusu {
+      font-family: Inter;
+      font-size: 16px;
+      line-height: 24px;
+    }
