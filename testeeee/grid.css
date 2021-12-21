@@ -1,0 +1,36 @@
+body {
+  background-color: #051D3B;
+}
+
+#pagina {
+  padding: 10px;
+  margin: auto ;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 100px 600px;
+
+}
+
+header {
+  background: rgb(142, 78, 202);
+  grid-column: 1/4;
+  margin: 5px;
+}
+
+nav {
+  background: pink;
+  grid-column: 1/2;
+  margin: 5px;
+}
+
+#conteudo {
+  background: tomato;
+  grid-column: 2/3;
+  margin: 5px;
+}
+
+aside {
+  background: powderblue;
+  grid-column: 3/4;
+  margin: 5px;
+}
