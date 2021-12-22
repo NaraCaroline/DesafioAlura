@@ -29,7 +29,7 @@
       color: white;
       width: 752px;
       height: 56px;
-      left: 375px;
+      right: 430px;
       top: 32px;
       position: fixed;
       background: rgba(255, 255, 255, 0.16);
@@ -45,7 +45,7 @@
 
     textarea, input {
       box-shadow: 0 0 0 0;
-      border: 0 none;S
+      border: 0 none;
       outline: 0;
   }
   
