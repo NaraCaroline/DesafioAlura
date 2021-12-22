@@ -77,7 +77,7 @@
     right: 32px;
 }
 
-.botaodocodigo {
+.botaos {
 
     width: 52px;
     margin-bottom: 24px;
@@ -101,4 +101,16 @@
 
     outline: none;
 
+}
+
+.highlight {
+    width: 752px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(80, 129, 251, 0.08);
+    border: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
 }
