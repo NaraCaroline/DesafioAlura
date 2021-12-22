@@ -49,6 +49,7 @@
   .editor {
     /* position: absolute; */
     font-family: Inter;
+    width: 130px;
     top: 25%;
     left: 96px;
     right: 1219px
@@ -57,6 +58,7 @@
   .comunidade {
     /* position: fixed; */
     font-family: Inter;
+    width: 130px;
     top: 238px;
     left: 96px;
     right: 1248px;

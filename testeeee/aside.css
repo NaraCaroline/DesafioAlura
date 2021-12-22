@@ -1,6 +1,6 @@
 .seuprojeto {
     /* right: -100%; */
-    width: 130px;
+    width: 200px;
     color: #ffffff;
     padding:1%;
     text-transform: uppercase;
@@ -18,6 +18,10 @@
     height: 56px;
     background: rgba(255, 255, 255, 0.16);
     border-radius: 8px;
+    opacity: 0.5;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
 }
 
 
@@ -28,6 +32,10 @@
     height: 80px;
     background: rgba(255, 255, 255, 0.16);
     border-radius: 8px;
+    opacity: 0.5;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
 }
 
 .personalizacao {
@@ -44,20 +52,27 @@
 
 #escolhaotipo {
     font-family: Inter;
-    color: #8d8d8d;
+    color: #ffffff;
     width: 272px;
     height: 56px;
     background: rgba(196, 196, 196, 0.01);
     border-radius: 8px;
-    
 }
+
+option:not(:checked) {
+    background-color: #051d3b;
+  }
+
+  option:checked {
+    background-color: #051d3b;
+  }
 
 #editordecor {
 width: 272px;
 height: 56px;
 background: rgba(255, 255, 255, 0.01);
 border: 1px solid #ffffff;
-box-shadow: border-box; */
+box-shadow: border-box; 
 border-radius: 8px;
  }
 
@@ -76,3 +91,17 @@ border-radius: 8px;
     border-radius: 8px;
     border: none;
 }
+
+#descricaoprojeto:hover { 
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+  }
+
+  #nomedoprojeto:hover { 
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+  }
