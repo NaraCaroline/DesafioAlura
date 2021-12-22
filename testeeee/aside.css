@@ -22,6 +22,7 @@
     transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -webkit-transition: opacity 1s ease-in-out;
+    margin-bottom: 5%;
 }
 
 
@@ -48,6 +49,8 @@
     font-family: Inter;
     font-weight: normal;
     font-size: 12px;
+    margin-top: 15%;
+    
 }
 
 #escolhaotipo {
@@ -57,6 +60,7 @@
     height: 56px;
     background: rgba(196, 196, 196, 0.01);
     border-radius: 8px;
+    margin-bottom: 2%;
 }
 
 option:not(:checked) {
@@ -102,6 +106,7 @@ Message #general
     height: 40px;
     background: #6BD1FF;
     border-radius: 8px;
+    
   
 }
 
@@ -111,6 +116,7 @@ Message #general
     background: #5081fb;
     border-radius: 8px;
     border: none;
+    margin-top: 4%;
 }
 
 #descricaoprojeto:hover { 
