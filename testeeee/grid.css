@@ -21,13 +21,13 @@ nav {
 }
 
 #conteudo {
-  background: tomato;
+  /* background: tomato; */
   grid-column: 2/3;
   margin: 5px;
 }
 
 aside {
-  background: powderblue;
+  /* background: powderblue; */
   grid-column: 3/4;
   margin: 5px;
 }

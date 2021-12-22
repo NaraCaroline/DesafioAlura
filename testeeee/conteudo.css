@@ -50,16 +50,13 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 32px;
-    width: 752px;
+    padding: 25px;
+    width: 707px;
     height: 302px;
     /* left: 344px; */
     /* top: 128px; */
     background: #6BD1FF;
     border-radius: 8px;
-    position: static;
-    left: 344px;
-    right: 344px;
     top: 128px
 }
 
@@ -69,9 +66,9 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 16px;
+    padding: 4%;
     height: 302px;
-    width: 688px;
+    width: 650px;
     left: 32px;
     top: 32px;
     background: #141414;

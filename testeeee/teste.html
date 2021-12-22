@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="conteudo.css">
+    <link rel="stylesheet" href="aside.css">
 </head>
 
 
@@ -72,7 +73,48 @@
   </main>
 
     <!-- Campo para inserir nome e descrição do projeto. -->
-    <aside>lateral</aside>
+    <aside>
+
+      <div class="projetoinfo">
+        <h2 class="seuprojeto">Seu projeto</h2>
+        <input 
+          type="text"
+          id="nomedoprojeto"
+          placeholder="Nome do seu projeto"
+          data-title
+        /> 
+
+
+        <textarea
+          class="input"
+          id="descricaoprojeto"
+          rows="5"
+          placeholder="Descrição do projeto"
+          data-description
+        ></textarea>
+
+        <div class="codigopersonalizado">
+          <h2 class="personalizacao">Personalização</h2>
+          <select id="escolhaotipo" data-codeLang>
+            <option value="Javascript">Javascript</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+          </select>
+
+          <input
+            id="editordecor"
+            type="color"
+            value="#6BD1FF"
+            class="project__color"
+            data-color>
+         </div>
+
+         <button data-save-btn class="projectsave">
+          Salvar projeto
+        </button>
+
+        
+    </aside>
 
 
   </section>

@@ -46,14 +46,16 @@
   }
 
   .editor {
-    position: fixed;
-    top: 174px;
+    /* position: absolute; */
+    font-family: Inter;
+    top: 25%;
     left: 96px;
     right: 1219px
   }
   
   .comunidade {
-    position: fixed;
+    /* position: fixed; */
+    font-family: Inter;
     top: 238px;
     left: 96px;
     right: 1248px;
@@ -94,7 +96,6 @@
     -moz-transition: opacity .55s ease-in-out;
     -webkit-transition: opacity .55s ease-in-out;
   }
-
 
   
   

@@ -1,0 +1,74 @@
+.seuprojeto {
+    /* right: -100%; */
+    width: 130px;
+    color: #ffffff;
+    padding:1%;
+    text-transform: uppercase;
+    line-height: 18px;
+    letter-spacing: 0.2cm;
+    font-family: Inter;
+    font-weight: normal;
+    font-size: 12px;
+  }
+
+#nomedoprojeto {
+    font-family: Inter;
+    color: #ffffff;
+    width: 272px;
+    height: 56px;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+}
+
+#descricaoprojeto {
+    font-family: Inter;
+    color: #ffffff;
+    width: 272px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+}
+
+.personalizacao {
+    width: 130px;
+    color: #ffffff;
+    padding:1%;
+    text-transform: uppercase;
+    line-height: 18px;
+    letter-spacing: 0.2cm;
+    font-family: Inter;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+#escolhaotipo {
+    font-family: Inter;
+    color: #ffffff;
+    width: 272px;
+    height: 56px;
+    background: rgba(196, 196, 196, 0.01);
+    border-radius: 8px;
+}
+
+#editordecor {
+width: 272px;
+height: 56px;
+background: rgba(255, 255, 255, 0.01);
+border: 1px solid #ffffff;
+box-shadow: border-box;
+border-radius: 8px;
+}
+
+.project__color {
+    width: 256px;
+    height: 40px;
+    background: #6BD1FF;
+    border-radius: 8px;
+}
+
+.projectsave {
+    width: 272px;
+    height: 56px;
+    background: #5081fb;
+    border-radius: 8px;
+}
