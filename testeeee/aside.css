@@ -25,7 +25,6 @@
     margin-bottom: 5%;
 }
 
-
 #descricaoprojeto {
     font-family: Inter;
     color: #ffffff;
@@ -50,12 +49,11 @@
     font-weight: normal;
     font-size: 12px;
     margin-top: 15%;
-    
 }
 
 #escolhaotipo {
     font-family: Inter;
-    color: #ffffff;
+    color: #8d8d8d;
     width: 272px;
     height: 56px;
     background: rgba(196, 196, 196, 0.01);
@@ -65,21 +63,23 @@
 
 option:not(:checked) {
     background-color: #051d3b;
-  }
-
+  }  
+   
   option:checked {
     background-color: #051d3b;
-  }
+  }  
+
+}
 
 #editordecor {
-    margin: 2px 4px;
-    width: calc(100% - 8px);
-    height: 44px;
+margin: 2px 4px;
+width: calc(100% - 8px);
+height: 44px;
 /* width: 272px;
 height: 56px; */
 background: rgba(255, 255, 255, 0.01);
 border: 1px solid #ffffff;
-box-shadow: border-box; 
+box-shadow: border-box;
 border-radius: 8px;
 background-color: transparent;
 -webkit-appearance: none;
@@ -106,7 +106,6 @@ Message #general
     height: 40px;
     background: #6BD1FF;
     border-radius: 8px;
-    
   
 }
 
@@ -132,3 +131,5 @@ Message #general
     -moz-transition: opacity .55s ease-in-out;
     -webkit-transition: opacity .55s ease-in-out;
   }
+
+
