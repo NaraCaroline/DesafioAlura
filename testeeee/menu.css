@@ -20,6 +20,7 @@
     font-size: 16px;
     padding: 12px;
     font-weight: 100;
+    
   }
   
   a { color: inherit; } 
@@ -54,6 +55,9 @@
     left: 96px;
     right: 1219px;
     margin-bottom: 50%;
+    
+    
+
   }
   
   .comunidade {
@@ -74,6 +78,7 @@
     transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -webkit-transition: opacity 1s ease-in-out;
+    
   }
 
   .iconeditor:hover {

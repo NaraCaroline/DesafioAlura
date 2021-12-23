@@ -1,3 +1,5 @@
+
+
 .seuprojeto {
     /* right: -100%; */
     width: 200px;
@@ -14,7 +16,7 @@
 #nomedoprojeto {
     font-family: Inter;
     color: #ffffff;
-    width: 272px;
+    width: 260px;
     height: 56px;
     background: rgba(255, 255, 255, 0.16);
     border-radius: 8px;
@@ -23,13 +25,17 @@
     -moz-transition: opacity 1s ease-in-out;
     -webkit-transition: opacity 1s ease-in-out;
     margin-bottom: 5%;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    right: 6px;
 }
 
 
 #descricaoprojeto {
     font-family: Inter;
     color: #ffffff;
-    width: 272px;
+    width: 260px;
     height: 80px;
     background: rgba(255, 255, 255, 0.16);
     border-radius: 8px;
@@ -37,6 +43,11 @@
     transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -webkit-transition: opacity 1s ease-in-out;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5%;
+    position: relative;
+    right: 6px;
 }
 
 .personalizacao {
@@ -51,16 +62,18 @@
     font-size: 12px;
     margin-top: 15%;
     
+    
 }
 
 #escolhaotipo {
     font-family: Inter;
     color: #ffffff;
-    width: 272px;
+    width: calc(100% - 8px);
     height: 56px;
     background: rgba(196, 196, 196, 0.01);
     border-radius: 8px;
     margin-bottom: 2%;
+    padding-left: 15px;
 }
 
 option:not(:checked) {
@@ -72,9 +85,9 @@ option:not(:checked) {
   }
 
 #editordecor {
-    margin: 2px 4px;
-    width: calc(100% - 8px);
-    height: 44px;
+margin: 2px 4px;
+width: calc(100% - 8px);
+height: 44px;
 /* width: 272px;
 height: 56px; */
 background: rgba(255, 255, 255, 0.01);
@@ -86,7 +99,8 @@ background-color: transparent;
 -moz-appearance: none;
 appearance: none;
 cursor: pointer;
-
+position: relative;
+right: 6px;
  }
 
  #editordecor::-webkit-color-swatch{
@@ -114,9 +128,20 @@ Message #general
     width: 272px;
     height: 56px;
     background: #5081fb;
+    font-family: Inter;
     border-radius: 8px;
     border: none;
     margin-top: 4%;
+    opacity: 0.7;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    
+}
+
+button {
+    color: #051d3b;
+    font-weight: 500;
 }
 
 #descricaoprojeto:hover { 
@@ -132,3 +157,11 @@ Message #general
     -moz-transition: opacity .55s ease-in-out;
     -webkit-transition: opacity .55s ease-in-out;
   }
+
+  .projectsave:hover {
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+  }
+
