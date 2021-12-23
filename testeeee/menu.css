@@ -13,6 +13,9 @@
   
   .menulista {
     display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 8rem;
     text-transform: none;
     letter-spacing: normal;
     align-items: center;
@@ -50,11 +53,14 @@
   .editor {
     /* position: absolute; */
     font-family: Inter;
+    display: flex;
+    flex-direction: column;
     width: 130px;
     top: 25%;
     left: 96px;
     right: 1219px;
     margin-bottom: 50%;
+    margin-top: 1.9rem;
     
     
 
@@ -63,10 +69,13 @@
   .comunidade {
     /* position: fixed; */
     font-family: Inter;
+    display: flex;
+    flex-direction: column;
     width: 130px;
     top: 238px;
     left: 96px;
     right: 1248px;
+    margin-top: -1.3rem;
   }
 
   .iconeditor {
