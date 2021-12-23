@@ -29,9 +29,10 @@
       color: white;
       width: 752px;
       height: 56px;
-      right: 430px;
+      /* right: 344px; */
+      left: 350px;
       top: 32px;
-      position: fixed;
+      position: absolute;
       background: rgba(255, 255, 255, 0.16);
       border-radius: 8px;
     }

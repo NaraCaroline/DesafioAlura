@@ -54,8 +54,9 @@
     align-items: flex-start;
     padding: 25px;
     width: 707px;
-    height: 302px;
-    /* left: 344px; */
+    height: 400px;
+    position: absolute;
+    left: 344px;
     /* top: 128px; */
     background: #6BD1FF;
     border-radius: 8px;
@@ -69,7 +70,7 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 4%;
-    height: 302px;
+    height: 344px;
     width: 650px;
     left: 32px;
     top: 32px;
@@ -121,6 +122,9 @@
     transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -webkit-transition: opacity 1s ease-in-out;
+    position: absolute;
+    top: 526px;
+    left: 350px;
 }
 
 .highlight:hover {
