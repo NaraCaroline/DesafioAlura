@@ -2,9 +2,11 @@
   padding: 10px;
   margin: auto ;
   display: grid;
+  
   grid-template-columns: 20% 60% 20%;
-  grid-template-rows: 100px 600px;
-
+  grid-template-rows: 100px 700px;
+  min-height: 100vh;
+  
 }
 
 header {
@@ -15,21 +17,19 @@ header {
 }
 
 nav {
-  
   grid-column: 1/2;
   margin: 5px;
 }
 
 #conteudo {
-  /* background: tomato; */
   grid-column: 2/3;
   margin: 5px;
 }
 
 aside {
-  /* background: powderblue; */
   grid-column: 3/4;
   margin: 5px;
+  
 }
 
 @media screen and (max-width: 600px) {

@@ -63,7 +63,7 @@
 #escolhaotipo {
     font-family: Inter;
     color: #ffffff;
-    width: calc(100% - 8px);
+    width: calc(100% - 9px);
     height: 56px;
     background: rgba(196, 196, 196, 0.01);
     border-radius: 8px;
@@ -79,11 +79,9 @@ option:not(:checked) {
     background-color: #051d3b;
   }  
 
-
-
 #editordecor {
-margin: 2px 4px;
-width: calc(100% - 8px);
+margin: 3px 6px;
+width: calc(100% - 9px);
 height: 44px;
 /* width: 272px;
 height: 56px; */
@@ -121,9 +119,9 @@ Message #general
 }
 
 .projectsave {
-    width: 90%;
+    width: calc(100% - 9px);
     height: 56px;
-    margin-left: 3%;
+    margin-left: 0%;
     background: #5081fb;
     font-family: Inter;
     border-radius: 8px;

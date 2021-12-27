@@ -1,10 +1,10 @@
  .menu {
+  /*overflow-wrap: break-word;*/
     right: -100%;
     width: 20%;
     color: white;
     padding:1%;
     text-transform: uppercase;
-    
     letter-spacing: 4px;
     font-family: Inter;
     font-weight: 100;
@@ -12,7 +12,9 @@
   }
   
   .menulista {
+    
     display: flex;
+    position: fixed;
     flex-direction: column;
     margin-top: 1rem;
     margin-left: 8rem;
@@ -23,6 +25,7 @@
     font-size: 16px;
     padding: 12px;
     font-weight: 100;
+    left: -3%;
     
   }
   
@@ -38,7 +41,6 @@
 
   .menutitulo {
     position: fixed;
-    
     left: 32px;
     right: 1357px;
     top: 128px;
@@ -54,16 +56,12 @@
     /* position: absolute; */
     font-family: Inter;
     display: flex;
+    
     flex-direction: column;
     width: 130px;
     top: 25%;
-    left: 96px;
-    right: 1219px;
     margin-bottom: 50%;
     margin-top: 1.9rem;
-    
-    
-
   }
   
   .comunidade {
@@ -73,8 +71,6 @@
     flex-direction: column;
     width: 130px;
     top: 238px;
-    left: 96px;
-    right: 1248px;
     margin-top: -1.3rem;
   }
 
@@ -115,38 +111,8 @@
     -webkit-transition: opacity .55s ease-in-out;
   }
 
-  @media screen and (max-width: 1023px) {
-    .menu {
-      background-color: var(--blue-350);
-      border-radius: calc(var(--border-radius) / 2);
-      box-shadow: var(--box-shadow);
-      height: 70vh;
-      margin-top: 1rem;
-      padding: 1.5rem;
-      position: absolute;
-      top: 0;
-      width: 40vw;
-      z-index: 2;
+  @media screen and (max-width: 600px) {
+    .comunidade, .editor {
+      display: none;
     }
-  }
-  
-  @media screen and (max-width: 500px) {
-    .menu {
-      width: 70vw;
-     }
-  }
-  
-  @media screen and (min-width: 1024px) {
-    .menu {
-      display: block;
-      position: initial;
-    }
-  
-    .menulista {
-      padding-bottom: 0;
-      margin-bottom: 0;
-      border-bottom: 0;
-    }
-  
-    
   }
