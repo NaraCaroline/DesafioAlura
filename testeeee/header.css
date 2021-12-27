@@ -27,7 +27,7 @@
       text-align: left;
       padding-left: 20px;
       color: white;
-      width: 752px;
+      width: 51%;
       height: 56px;
       /* right: 344px; */
       left: 350px;
@@ -68,37 +68,4 @@
       line-height: 24px;
       text-decoration: none;
       color: #ffffff;
-    }
-
-    @media screen and (min-width: 768px) {
-      .header {
-        display: block;
-        flex-grow: 2;
-        margin: 0 2.5rem;
-      }
-    
-      .fotousuario {
-        display: none;
-      }
-    }
-    
-    @media screen and (min-width: 1024px) {
-      .headercontainer,
-      .headersearch {
-        width: 25%;
-      }
-    
-      .fotousuario, .nomeusuario {
-        display: flex;
-        justify-content: flex-end;
-      }
-    
-      .headersearch {
-        width: 50%;
-        margin: 0;
-      }
-    
-      .logoalura {
-        display: none;
-      }
     }
