@@ -1,8 +1,6 @@
-
-
 .seuprojeto {
     /* right: -100%; */
-    width: 200px;
+    width: 90%;
     color: #ffffff;
     padding:1%;
     text-transform: uppercase;
@@ -16,7 +14,7 @@
 #nomedoprojeto {
     font-family: Inter;
     color: #ffffff;
-    width: 260px;
+    width: 90%;
     height: 56px;
     background: rgba(255, 255, 255, 0.16);
     border-radius: 8px;
@@ -34,7 +32,7 @@
 #descricaoprojeto {
     font-family: Inter;
     color: #ffffff;
-    width: 260px;
+    width: 90%;
     height: 80px;
     background: rgba(255, 255, 255, 0.16);
     border-radius: 8px;
@@ -50,7 +48,7 @@
 }
 
 .personalizacao {
-    width: 130px;
+    width: 90%;
     color: #ffffff;
     padding:1%;
     text-transform: uppercase;
@@ -123,8 +121,9 @@ Message #general
 }
 
 .projectsave {
-    width: 272px;
+    width: 90%;
     height: 56px;
+    margin-left: 3%;
     background: #5081fb;
     font-family: Inter;
     border-radius: 8px;
@@ -162,3 +161,5 @@ button {
     -moz-transition: opacity .55s ease-in-out;
     -webkit-transition: opacity .55s ease-in-out;
   }
+
+ 

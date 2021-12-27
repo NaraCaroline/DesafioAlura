@@ -69,3 +69,36 @@
       text-decoration: none;
       color: #ffffff;
     }
+
+    @media screen and (min-width: 768px) {
+      .header {
+        display: block;
+        flex-grow: 2;
+        margin: 0 2.5rem;
+      }
+    
+      .fotousuario {
+        display: none;
+      }
+    }
+    
+    @media screen and (min-width: 1024px) {
+      .headercontainer,
+      .headersearch {
+        width: 25%;
+      }
+    
+      .fotousuario, .nomeusuario {
+        display: flex;
+        justify-content: flex-end;
+      }
+    
+      .headersearch {
+        width: 50%;
+        margin: 0;
+      }
+    
+      .logoalura {
+        display: none;
+      }
+    }

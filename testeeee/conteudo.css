@@ -53,7 +53,7 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 25px;
-    width: 707px;
+    width: 47%;
     height: 400px;
     position: absolute;
     left: 344px;
@@ -71,7 +71,7 @@
     align-items: flex-start;
     padding: 4%;
     height: 344px;
-    width: 650px;
+    width: 92%;
     left: 32px;
     top: 32px;
     background: #141414;

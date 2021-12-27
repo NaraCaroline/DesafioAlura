@@ -115,5 +115,38 @@
     -webkit-transition: opacity .55s ease-in-out;
   }
 
+  @media screen and (max-width: 1023px) {
+    .menu {
+      background-color: var(--blue-350);
+      border-radius: calc(var(--border-radius) / 2);
+      box-shadow: var(--box-shadow);
+      height: 70vh;
+      margin-top: 1rem;
+      padding: 1.5rem;
+      position: absolute;
+      top: 0;
+      width: 40vw;
+      z-index: 2;
+    }
+  }
   
+  @media screen and (max-width: 500px) {
+    .menu {
+      width: 70vw;
+     }
+  }
   
+  @media screen and (min-width: 1024px) {
+    .menu {
+      display: block;
+      position: initial;
+    }
+  
+    .menulista {
+      padding-bottom: 0;
+      margin-bottom: 0;
+      border-bottom: 0;
+    }
+  
+    
+  }
