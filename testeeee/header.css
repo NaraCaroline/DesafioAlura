@@ -27,10 +27,11 @@
       text-align: left;
       padding-left: 20px;
       color: white;
-      width: 51%;
+      width: 50%;
       height: 56px;
+      margin-left: 10.5% ;
       /* right: 344px; */
-      left: 350px;
+     
       top: 32px;
       position: absolute;
       background: rgba(255, 255, 255, 0.16);
