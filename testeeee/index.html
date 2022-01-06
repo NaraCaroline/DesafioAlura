@@ -10,17 +10,18 @@
     <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Roboto+Mono&display=swap"
     rel="stylesheet"/>
+    <link rel="stylesheet" href="assets/css/dracula.css">
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/grid.css">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/menu.css">
     <link rel="stylesheet" href="assets/css/conteudo.css">
     <link rel="stylesheet" href="assets/css/aside.css">
-    <link rel="stylesheet" href="assets/css/dracula.css">
+   
 </head>
 
 <STYLE>A {text-decoration: none;} </STYLE>
-<body>
+<body spellcheck="false">
   <section id="pagina">
 
     <!-- Aqui fica a logo, a searchbar e a parte do usuário. -->
@@ -63,13 +64,18 @@
     </nav>
 
     <!-- O editor de código. -->
+
     <main>
+      <form>
     <section id="conteudo" class="retangulo">
       <div class="editordecodigo">
 
           <img class="botao" src="assets/img/mac_buttons.svg">
 
-          <textarea></textarea>
+          <div class="codigo-wrapper">
+            <pre><code class="preview javascript" contenteditable="true" aria-label="Editor de Código"> Function teste() {}</code></pre>
+
+           </div>
           
       </div>
   </section>
@@ -99,11 +105,11 @@
 
         <div class="codigopersonalizado">
           <h2 class="personalizacao">Personalização</h2>
-          <select id="escolhaotipo" data-codeLang>
-            <option value="Javascript">Javascript</option>
-            <option value="HTML">HTML</option>
-            <option value="CSS">CSS</option>
-         </select>
+          <select name="linguagem" id="linguagem" class="linguagem">
+              <option value="JavaScript">JavaScript</option>
+              <option value="html">HTML</option>
+              <option value="css">CSS</option>
+          </select>
 
         <!-- Campo do editor de cor. -->
           <input
@@ -117,14 +123,14 @@
          <button data-save-btn class="projectsave">
             Salvar projeto
          </button>
+        </form>
     </aside>
 
 
   </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>    
     <script src="assets/js/colorPicker.js"></script>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
-   <script src="assets/js/index.js"></script>
+    <script src="./assets/js/highlight.js"></script>
 </body>
 </html>
